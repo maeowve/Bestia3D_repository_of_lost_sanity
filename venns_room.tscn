@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://b7qfk7ckyefr2"]
+
+[ext_resource type="PackedScene" uid="uid://c5ybf602lcggr" path="res://venns_room_1.gltf" id="1_csfx7"]
+
+[node name="Node3D" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2.01498, 0)
+
+[node name="default2" parent="." instance=ExtResource("1_csfx7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.73948, 0, -2.36618)

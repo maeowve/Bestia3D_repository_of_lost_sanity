@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://dinvxrvdj4oe2"]
+
+[ext_resource type="PackedScene" uid="uid://5d3medxvablo" path="res://kid_venn.tscn" id="2_2s7g6"]
+[ext_resource type="PackedScene" uid="uid://dnyr4l1eoplfm" path="res://nest_m1_crossroads_2.gltf" id="2_e2u00"]
+
+[sub_resource type="MeshLibrary" id="MeshLibrary_x32xt"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="kid_venn" parent="." instance=ExtResource("2_2s7g6")]
+transform = Transform3D(0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, 0.5, 0.25, 5.5)
+
+[node name="Camera3D" type="Camera3D" parent="kid_venn"]
+transform = Transform3D(0.997756, -0.0241014, 0.0624611, -0.0241013, 0.741103, 0.670959, -0.0624611, -0.670958, 0.738859, 0.707106, 12, 13.435)
+projection = 1
+size = 5.0
+
+[node name="crossroads_test" parent="." instance=ExtResource("2_e2u00")]
+
+[node name="GridMap" type="GridMap" parent="."]
+mesh_library = SubResource("MeshLibrary_x32xt")
+cell_size = Vector3(1, 1, 1)
+metadata/_edit_lock_ = true

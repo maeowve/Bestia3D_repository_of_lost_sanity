@@ -1,0 +1,18 @@
+[gd_resource type="SpriteFrames" load_steps=3 format=3 uid="uid://c0k07txr41kuc"]
+
+[ext_resource type="Texture2D" uid="uid://bpfyi260oik0e" path="res://venn_kid_sprite_sheet_3.png" id="1_q0w1c"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ouht0"]
+atlas = ExtResource("1_q0w1c")
+region = Rect2(0, 0, 52, 102)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ouht0")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]

@@ -1,0 +1,36 @@
+newmtl 1
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Tr 0.000000
+illum 0
+Ns 0.000000
+map_Kd nest_crossroads_texture_1_1.png
+map_d nest_crossroads_texture_1_1.png
+newmtl 5
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Tr 0.000000
+illum 0
+Ns 0.000000
+map_Kd nest_crossroads_texture_1_5.png
+map_d nest_crossroads_texture_1_5.png
+newmtl 6
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Tr 0.000000
+illum 0
+Ns 0.000000
+map_Kd nest_crossroads_texture_1_6.png
+map_d nest_crossroads_texture_1_6.png
+newmtl 7
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Tr 0.000000
+illum 0
+Ns 0.000000
+map_Kd nest_crossroads_texture_1_7.png
+map_d nest_crossroads_texture_1_7.png

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dpmr25q18yfcs"
+path="res://.godot/imported/nest_m1_crossroads.obj-5f20a6f46b468bf0946003a61ab5920f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/nest_m1_crossroads.obj-5f20a6f46b468bf0946003a61ab5920f.mesh"]
+
+source_file="res://nest_m1_crossroads.obj"
+dest_files=["res://.godot/imported/nest_m1_crossroads.obj-5f20a6f46b468bf0946003a61ab5920f.mesh", "res://.godot/imported/nest_m1_crossroads.obj-5f20a6f46b468bf0946003a61ab5920f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
